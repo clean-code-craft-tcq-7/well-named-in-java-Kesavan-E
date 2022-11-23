@@ -18,8 +18,8 @@ public class Main {
 
     static void printManual() {
         int count = 1;
-        for(int i = 0 ; i< NUMBEROFMAJORCOLORS ; i++) {
-            for(int j = 0; j< NUMBEROFMINORCOLORS ; j++) {
+        for(int i = 0 ; i< numberOfMajorColors ; i++) {
+            for(int j = 0; j< numberOfMinorColors ; j++) {
                  System.out.println(count + " | " + MajorColorNames[i] + " | " + MinorColorNames[j]);
                  count++;
             }
